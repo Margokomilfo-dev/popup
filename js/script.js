@@ -1,5 +1,9 @@
 
 window.addEventListener('DOMContentLoaded', function(){
+<<<<<<< Updated upstream
+=======
+  
+>>>>>>> Stashed changes
   //timer
 
   let deadline = '2020-01-01'; //yyyy-mm-dd
@@ -48,7 +52,10 @@ window.addEventListener('DOMContentLoaded', function(){
 
   setClock('timer', deadline); 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   //overlay
 
   let more = document.querySelector(".more"),
