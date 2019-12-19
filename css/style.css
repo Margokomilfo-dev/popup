@@ -1,0 +1,199 @@
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Roboto Slab";
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+.content {
+  width: 100%;
+}
+.content .hide {
+  display: none;
+}
+.content .show {
+  display: flex;
+}
+.timer {
+  margin-top: 150px;
+  text-align: center;
+}
+.timer-title {
+  font-size: 36px;
+  color: #c78030;
+}
+.timer-action {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 40px;
+}
+.timer-numbers {
+  margin-top: 40px;
+  font-size: 90px;
+  color: #c78030;
+}
+.timer-numbers:after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #c78030;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+.more {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #c78030;
+  font-size: 18px;
+  color: #c78030;
+  cursor: pointer;
+}
+.more:hover {
+  box-shadow: 0 0 10px #c78030;
+}
+.overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+}
+.overlay .popup {
+  position: fixed;
+  z-index: 4;
+  left: 50%;
+  top: 150px;
+  width: 752px;
+  transform: translateX(-50%);
+  background-color: black;
+}
+.overlay .popup-close {
+  position: absolute;
+  right: -20px;
+  top: -35px;
+  cursor: pointer;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 300;
+}
+.overlay .popup-title {
+  display: block;
+  width: 100%;
+  height: 71px;
+  line-height: 71px;
+  margin: 0;
+  background-color: #c78030;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.overlay .popup-form {
+  background: url(../img/modal.jpg) center no-repeat;
+  background-size: cover;
+  padding: 35px 88px 50px 88px;
+  color: #fff;
+}
+.overlay .popup-form-header {
+  padding: 0;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 30px;
+  text-align: center;
+}
+.overlay .popup-form__label {
+  display: block;
+  margin-top: 23px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.overlay .popup-form__input {
+  width: 365px;
+  height: 56px;
+  margin-top: 17px;
+  font-size: 18px;
+  background-color: #c78030;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+.overlay .popup-form__input::-webkit-input-placeholder {
+  color: #fff;
+}
+.overlay .popup-form__input::-moz-placeholder {
+  color: #fff;
+}
+.overlay .popup-form__input:-moz-placeholder {
+  color: #fff;
+}
+.overlay .popup-form__input:-ms-input-placeholder {
+  color: #fff;
+}
+.overlay .popup-form__input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.overlay .popup-form__input:focus::-moz-placeholder {
+  color: transparent;
+}
+.overlay .popup-form__input:focus:-moz-placeholder {
+  color: transparent;
+}
+.overlay .popup-form__input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.overlay .popup-form__btn {
+  width: 180px;
+  height: 56px;
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 16px;
+  background-color: transparent;
+  color: #c78030;
+  border: 1px solid #c78030;
+  cursor: pointer;
+}
+.overlay .popup-form__btn:hover {
+  box-shadow: 0 0 10px #c78030;
+}
