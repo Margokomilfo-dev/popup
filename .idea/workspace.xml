@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caf796b7-34c7-40b0-ae5b-93e1ca7c91f5" name="Default Changelist" comment="ReadMe">
+    <list default="true" id="caf796b7-34c7-40b0-ae5b-93e1ca7c91f5" name="Default Changelist" comment="ReadMe+">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609328625529</updated>
-      <workItem from="1609328626722" duration="1253000" />
+      <workItem from="1609328626722" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="ReadMe">
       <created>1609330422604</created>
@@ -40,7 +40,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609330422604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ReadMe+">
+      <created>1609330515933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609330515933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ReadMe+">
+      <created>1609330543910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609330543910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,6 +73,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ReadMe" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReadMe" />
+    <MESSAGE value="ReadMe+" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadMe+" />
   </component>
 </project>
