@@ -1,12 +1,6 @@
-
 window.addEventListener('DOMContentLoaded', function(){
-<<<<<<< Updated upstream
-=======
-  
->>>>>>> Stashed changes
-  //timer
 
-  let deadline = '2020-01-01'; //yyyy-mm-dd
+  let deadline = '2021-06-21'; //yyyy-mm-dd
 
   function getTimeRemaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date()),
@@ -51,12 +45,6 @@ window.addEventListener('DOMContentLoaded', function(){
   }
 
   setClock('timer', deadline); 
-
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-  //overlay
 
   let more = document.querySelector(".more"),
       overlay = document.querySelector(".overlay"),
